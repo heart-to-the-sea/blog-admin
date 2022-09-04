@@ -78,7 +78,7 @@ const { handleSelect, actionValue } = useSelect();
 .logo {
   width: 200px;
   height: 100%;
-  background-color: antiquewhite;
+  background-color: inherit;
 }
 .header-list-box {
   padding: 0 20px;
@@ -87,6 +87,7 @@ const { handleSelect, actionValue } = useSelect();
   overflow-x: auto;
   position: relative;
   .scroll-left-btn {
+    cursor: pointer;
     position: absolute;
     left: 0;
     height: 100%;
@@ -96,6 +97,7 @@ const { handleSelect, actionValue } = useSelect();
     background-color: @primary-back-color;
   }
   .scroll-right-btn {
+    cursor: pointer;
     position: absolute;
     right: 0;
     height: 100%;
@@ -126,6 +128,7 @@ const { handleSelect, actionValue } = useSelect();
     align-items: center;
     padding: 0 20px;
     cursor: pointer;
+    user-select: none;
     &:hover {
       color: @primary-back-color;
       background-color: @primary-text-color;

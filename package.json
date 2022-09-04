@@ -13,11 +13,13 @@
     "less": "^4.1.3",
     "less-loader": "^11.0.0",
     "nuxt": "3.0.0-rc.9",
-    "sass": "^1.54.8"
+    "sass": "^1.54.8",
+    "vite-plugin-cdn-import": "^0.3.5"
   },
   "dependencies": {
     "axios": "^0.27.2",
     "normalize.css": "^8.0.1",
-    "pinia": "^2.0.21"
+    "pinia": "^2.0.21",
+    "vditor": "^3.8.17"
   }
 }
